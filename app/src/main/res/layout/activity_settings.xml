@@ -41,7 +41,8 @@
             android:id="@+id/labelMaxTemp"
             android:layout_width="175dp"
             android:layout_height="wrap_content"
-            android:text="Maximum Temperature:" />
+            android:text="Maximum Temperature:"
+            tools:visibility="visible" />
 
         <EditText
             android:id="@+id/editTextMaxTemp"
@@ -51,10 +52,12 @@
             android:ems="10"
             android:hint="Enter temperature in Celsius"
             android:inputType="numberSigned"
-            tools:text="30" />
+            tools:text="30"
+            tools:visibility="visible" />
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/layoutMinTemp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="140dp"
@@ -71,7 +74,8 @@
             android:id="@+id/labelMinTemp"
             android:layout_width="175dp"
             android:layout_height="wrap_content"
-            android:text="Minimum Temperature:" />
+            android:text="Minimum Temperature:"
+            tools:visibility="visible" />
 
         <EditText
             android:id="@+id/editTextMinTemp"
@@ -81,7 +85,8 @@
             android:ems="10"
             android:hint="Enter temperature in Celsius"
             android:inputType="numberSigned"
-            tools:text="0" />
+            tools:text="0"
+            tools:visibility="visible" />
     </LinearLayout>
 
     <LinearLayout
@@ -102,7 +107,8 @@
             android:id="@+id/labelWalkTime"
             android:layout_width="175dp"
             android:layout_height="wrap_content"
-            android:text="Maximum Walking Time:" />
+            android:text="Maximum Walking Time:"
+            tools:visibility="visible" />
 
         <EditText
             android:id="@+id/editTextWalkTime"
@@ -112,6 +118,7 @@
             android:ems="10"
             android:hint="Enter time in minutes"
             android:inputType="number"
-            android:text="10" />
+            android:text="10"
+            android:visibility="visible" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
