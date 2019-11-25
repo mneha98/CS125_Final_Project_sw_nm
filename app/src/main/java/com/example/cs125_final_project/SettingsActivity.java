@@ -3,7 +3,7 @@ package com.example.cs125_final_project;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-
+//Class representing settings screen of app
 public class SettingsActivity extends AppCompatActivity {
 
     @Override
