@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CS125_Final_Project</string>
+    <string name="test">Hello World</string>
+    <string name="stringWhereTo">Where To?</string>
+    <string name="stringDestinationHint">Enter destination</string>
+    <string name="string_wait_or_walk">WAIT or WALK</string>
 </resources>
