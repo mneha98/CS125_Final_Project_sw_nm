@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/walkLable"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:autoText="false"
+        android:text="Walk!"
+        android:textColor="#EE9514"
+        android:textColorHint="#CCCCCC"
+        android:textSize="47sp"
+        android:textStyle="bold"
+        android:verticalScrollbarPosition="defaultPosition" />
+
+    <TextView
+        android:id="@+id/hit_walkTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Need 10 min to arrive by walking." />
+
+    <TextView
+        android:id="@+id/hit_whyWalk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Walking saves 3 min for you." />
+
+    <TextView
+        android:id="@+id/hit_calories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You burn 100 calories by walking." />
+
+    <Button
+        android:id="@+id/openMapFromWalk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Google Map" />
+</LinearLayout>

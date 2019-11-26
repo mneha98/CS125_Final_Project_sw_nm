@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/busLable"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:text="Take a bus!"
+        android:textColor="#F79C15"
+        android:textSize="46sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hit_busTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Need 10 min to arrive by taking bus." />
+
+    <TextView
+        android:id="@+id/hit_whyBus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="It is too cold to walk." />
+
+    <TextView
+        android:id="@+id/hit_whichBusStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to xxx bus stop." />
+
+    <Button
+        android:id="@+id/openMapFromBus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Google Map" />
+</LinearLayout>
