@@ -19,6 +19,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, SettingsActivity.class));
             }
         });
+        findViewById(R.id.buttonWaitOrWalk).setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(MainActivity.this, WalkActivity.class));
+            }
+        });
+
 
     }
 }

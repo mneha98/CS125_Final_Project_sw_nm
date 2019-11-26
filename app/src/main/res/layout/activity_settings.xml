@@ -1,124 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/layoutSettings"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/labelSettings"
-        android:layout_width="wrap_content"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="200dp"
-        android:layout_marginRight="200dp"
-        android:layout_marginBottom="688dp"
-        android:text="Settings"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/string_settings"
+        android:textSize="50sp" />
 
     <LinearLayout
         android:id="@+id/layoutMaxTemp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="70dp"
-        android:layout_marginBottom="600dp"
-        android:orientation="horizontal"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="visible">
+        android:layout_height="50dp"
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/labelMaxTemp"
             android:layout_width="175dp"
             android:layout_height="wrap_content"
-            android:text="Maximum Temperature:"
-            tools:visibility="visible" />
+            android:layout_weight="0"
+            android:text="@string/string_maximum_temperature"
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/editTextMaxTemp"
-            android:layout_width="wrap_content"
+            android:layout_width="235dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0"
+            android:autofillHints=""
             android:ems="10"
-            android:hint="Enter temperature in Celsius"
+            android:hint="@string/string_enter_temperature_in_celsius"
             android:inputType="numberSigned"
-            tools:text="30"
-            tools:visibility="visible" />
+            android:textSize="16sp"
+            tools:targetApi="o" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/layoutMinTemp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="140dp"
-        android:layout_marginBottom="550dp"
-        android:orientation="horizontal"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="visible">
+        android:layout_height="50dp"
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/labelMinTemp"
             android:layout_width="175dp"
             android:layout_height="wrap_content"
-            android:text="Minimum Temperature:"
-            tools:visibility="visible" />
+            android:layout_weight="0"
+            android:text="@string/string_minimum_temperature"
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/editTextMinTemp"
-            android:layout_width="wrap_content"
+            android:layout_width="235dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0"
             android:ems="10"
-            android:hint="Enter temperature in Celsius"
+            android:hint="@string/string_enter_temperature_in_celsius"
             android:inputType="numberSigned"
-            tools:text="0"
-            tools:visibility="visible" />
+            android:importantForAutofill="no" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/layoutWalkTime"
+        android:id="@+id/layoutMaxWalkTime"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="210dp"
-        android:layout_marginBottom="480dp"
-        android:orientation="horizontal"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="visible">
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/labelWalkTime"
+            android:id="@+id/labelMaxWalkTime"
             android:layout_width="175dp"
             android:layout_height="wrap_content"
-            android:text="Maximum Walking Time:"
-            tools:visibility="visible" />
+            android:layout_weight="0"
+            android:text="@string/string_maximum_walking_time" />
 
         <EditText
-            android:id="@+id/editTextWalkTime"
-            android:layout_width="wrap_content"
+            android:id="@+id/editTextMaxWalkTime"
+            android:layout_width="235dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0"
             android:ems="10"
-            android:hint="Enter time in minutes"
-            android:inputType="number"
-            android:text="10"
-            android:visibility="visible" />
+            android:hint="@string/string_enter_time_in_minutes"
+            android:inputType="number" />
     </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

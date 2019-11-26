@@ -1,42 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/layoutWalk"
+    android:id="@+id/layoutBus"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:visibility="visible">
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/labelWalk"
+        android:id="@+id/labelWait"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:gravity="center_horizontal"
-        android:text="WALK!"
+        android:text="WAIT!"
         android:textSize="50sp" />
 
     <TextView
-        android:id="@+id/labelBurn"
+        android:id="@+id/labelBusStop"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal|center_vertical"
-        android:text="You can burn 0 calories"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:text="Catch the bus at Nevada and Goodwin"
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/labelWalkTime"
+        android:id="@+id/labelBusTime"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="It will take you 0 minutes"
-        android:textSize="30sp"
-        tools:visibility="visible" />
+        android:text="It will take you 0 minutes" />
 
     <TextView
-        android:id="@+id/labelWalkReason"
+        android:id="@+id/labelBusReason"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:text="Reason"
-        android:textSize="20sp" />
+        android:text="Reason" />
 
     <Button
         android:id="@+id/buttonMaps"
@@ -44,5 +40,4 @@
         android:layout_height="wrap_content"
         android:text="Go to Maps"
         android:textSize="20sp" />
-
 </LinearLayout>
