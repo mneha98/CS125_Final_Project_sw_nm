@@ -8,31 +8,34 @@
     <TextView
         android:id="@+id/labelWait"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:layout_gravity="center"
         android:gravity="center_horizontal"
         android:text="WAIT!"
+        android:textColor="#F59A14"
         android:textSize="50sp" />
 
     <TextView
         android:id="@+id/labelBusStop"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="90dp"
         android:height="50dp"
-        android:text="Catch the bus at Nevada and Goodwin"
-        android:textSize="20sp" />
+        android:text=" • Catch the bus at Nevada and Goodwin"
+        android:textSize="25sp" />
 
     <TextView
         android:id="@+id/labelBusTime"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="It will take you 0 minutes" />
+        android:layout_height="90dp"
+        android:text=" • It will take you 0 minutes"
+        android:textSize="25dp" />
 
     <TextView
         android:id="@+id/labelBusReason"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:text="Reason" />
+        android:layout_height="90dp"
+        android:text=" • Reason"
+        android:textSize="25dp" />
 
     <Button
         android:id="@+id/buttonMaps"
