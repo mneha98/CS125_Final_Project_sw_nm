@@ -12,4 +12,5 @@
     <string name="string_maximum_walking_time">Maximum Walking Time:</string>
     <string name="string_enter_time_in_minutes">Enter time in minutes</string>
     <string name="string_maximum_temperature">Maximum Temperature:</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

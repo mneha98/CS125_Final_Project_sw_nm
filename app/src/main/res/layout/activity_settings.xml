@@ -15,16 +15,16 @@
     <LinearLayout
         android:id="@+id/layoutMaxTemp"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:orientation="horizontal">
+        android:layout_height="111dp"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/labelMaxTemp"
-            android:layout_width="175dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="@string/string_maximum_temperature"
-            android:textSize="16sp" />
+            android:textSize="25sp" />
 
         <EditText
             android:id="@+id/editTextMaxTemp"
@@ -37,21 +37,22 @@
             android:inputType="numberSigned"
             android:textSize="16sp"
             tools:targetApi="o" />
+
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/layoutMinTemp"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:orientation="horizontal">
+        android:layout_height="102dp"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/labelMinTemp"
-            android:layout_width="175dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="@string/string_minimum_temperature"
-            android:textSize="16sp" />
+            android:textSize="25sp" />
 
         <EditText
             android:id="@+id/editTextMinTemp"
@@ -60,23 +61,24 @@
             android:layout_weight="0"
             android:ems="10"
             android:hint="@string/string_enter_temperature_in_celsius"
-            android:inputType="numberSigned"
-            android:importantForAutofill="no" />
+            android:importantForAutofill="no"
+            android:inputType="numberSigned" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/layoutMaxWalkTime"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="97dp"
         android:layout_weight="0"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/labelMaxWalkTime"
-            android:layout_width="175dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:text="@string/string_maximum_walking_time" />
+            android:text="@string/string_maximum_walking_time"
+            android:textSize="25sp" />
 
         <EditText
             android:id="@+id/editTextMaxWalkTime"
