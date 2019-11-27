@@ -16,13 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SettingsActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.SETTINGS" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".SettingsActivity"/>
+        <activity android:name=".WalkActivity"/>
     </application>
 
 </manifest>

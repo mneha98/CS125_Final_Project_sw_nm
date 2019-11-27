@@ -4,4 +4,12 @@
     <string name="stringWhereTo">Where To?</string>
     <string name="stringDestinationHint">Enter destination</string>
     <string name="string_wait_or_walk">WAIT or WALK</string>
+    <string name="button_to_search_for_inputted_destination">Button to search for inputted destination</string>
+    <string name="button_to_launch_settings_page">Button to launch Settings page</string>
+    <string name="string_settings">Settings</string>
+    <string name="string_minimum_temperature">Minimum Temperature:</string>
+    <string name="string_enter_temperature_in_celsius">Enter temperature in Celsius</string>
+    <string name="string_maximum_walking_time">Maximum Walking Time:</string>
+    <string name="string_enter_time_in_minutes">Enter time in minutes</string>
+    <string name="string_maximum_temperature">Maximum Temperature:</string>
 </resources>

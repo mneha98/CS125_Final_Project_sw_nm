@@ -1,41 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutWalk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:visibility="visible">
 
     <TextView
-        android:id="@+id/walkLable"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:autoText="false"
-        android:text="Walk!"
-        android:textColor="#EE9514"
-        android:textColorHint="#CCCCCC"
-        android:textSize="47sp"
-        android:textStyle="bold"
-        android:verticalScrollbarPosition="defaultPosition" />
-
-    <TextView
-        android:id="@+id/hit_walkTime"
+        android:id="@+id/labelWalk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Need 10 min to arrive by walking." />
+        android:gravity="center_horizontal"
+        android:text="WALK!"
+        android:textSize="50sp" />
 
     <TextView
-        android:id="@+id/hit_whyWalk"
+        android:id="@+id/labelBurn"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Walking saves 3 min for you." />
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:text="You can burn 0 calories"
+        android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/hit_calories"
+        android:id="@+id/labelWalkTime"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="You burn 100 calories by walking." />
+        android:layout_height="50dp"
+        android:text="It will take you 0 minutes"
+        android:textSize="30sp"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/labelWalkReason"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="Reason"
+        android:textSize="20sp" />
 
     <Button
-        android:id="@+id/openMapFromWalk"
+        android:id="@+id/buttonMaps"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Open Google Map" />
+        android:text="Go to Maps"
+        android:textSize="20sp" />
+
 </LinearLayout>
